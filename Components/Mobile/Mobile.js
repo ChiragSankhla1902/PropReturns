@@ -29,7 +29,7 @@ const Mobile = () => {
           <text class="px-8 text-4xl text-indigo-500 font-semibold mt-6  ">What is REIT?</text>
           <text  class="px-8 text-md text-slate-700 text-center font-semibold  mt-4">REITS are funds that own, operate and manage a portfolio of income generating commercial property.</text>
           <Link href="/">
-            <a class="text-indigo-400  hover:text-indigo-500 "  >Read More ></a>
+            <a class="text-indigo-400  hover:text-indigo-500 "  >Read More > </a>
           </Link>
 
           <div class="flex flex-col flex-nowrap item-start justify-center  min-w-full w-screen bg-emerald-100 mt-8 ">
@@ -56,7 +56,7 @@ const Mobile = () => {
           <text class="px-8 text-2xl font-semibold mt-6">Liquidity</text>
           <text  class="px-8 text-md text-slate-700 text-center font-semibold  mt-4"> Liquidity is the foremost reason that anyone would want to invest in REITs. REITs trade on public stock exchanges and hence are easy to buy and sell.</text>
           <Link href="/">
-            <a class="text-indigo-400  hover:text-indigo-500 mt-2"   >Read More ></a>
+            <a class="text-indigo-400  hover:text-indigo-500 mt-2"   >Read More > </a>
           </Link>
           <div class='bg-emerald-100 py-5  min-w-full w-450 h-450 text-center mt-6'>
             <text class="px-8  text-3xl text-indigo-500 font-semibold  ">Investment opportunities</text>
@@ -68,7 +68,7 @@ const Mobile = () => {
             </div>
             <text  class="text-lg text-slate-700 text-start font-semibold  mt-4 ml-4">Our portfolio comprises five integrated business parks and five quality independent offices, totalling 31.3 msf of total leasable area, comprising 24.2 msf of completed area, 1.8 msf of under-construction area.</text>
             <Link href="/">
-              <a class="text-indigo-400  hover:text-indigo-500 mt-2 ml-4 "   >Read More ></a>
+              <a class="text-indigo-400  hover:text-indigo-500 mt-2 ml-4 "   >Read More > </a>
             </Link>
           </div>
 
