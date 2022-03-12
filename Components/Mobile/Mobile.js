@@ -3,8 +3,8 @@ import Link from "next/link"
 import {useState} from 'react'
 
 const Mobile = () => {
-  const[show,setshow]=useState(false);
-  const[show1,setshow1]=useState(false);
+  const[show,setshow]=useState(true);
+  const[show1,setshow1]=useState(true);
 
   return (
     <>
@@ -105,28 +105,28 @@ const Mobile = () => {
             <div class='flex flex-col  py-8 min-w-full justify-start item-start ' >
               <div class="flex flex-row flex-nowrap justify-between min-w-full py-5 ">
                 <text class="text-lg  font-semibold mt-4 ml-4">Q. whether this will generate income easily in just 11 months?</text>
-                {!show? <svg xmlns="http://www.w3.org/2000/svg" onClick={()=>{setshow(true)}} className="h-6 w-6  mt-4  hover:cursor-pointer " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                {!show? <svg xmlns="http://www.w3.org/2000/svg" onClick={()=>{setshow(true)}} className="h-6 w-6 mr-4  mt-4  hover:cursor-pointer " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
                   :
-                <svg xmlns="http://www.w3.org/2000/svg" onClick={()=>{setshow(false)}} class="h-6 w-6  hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <svg xmlns="http://www.w3.org/2000/svg" onClick={()=>{setshow(false)}} class="h-6 w-6 mr-4  hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                 </svg>}
 
               </div>
-              {!show?<text  class="text-lg text-slate-700 text-start font-semibold  mt-4 ml-4"> A. Yes, It will generate the returns upto 10% in short term</text>:<text  class="text-lg text-slate-700 text-start font-semibold  mt-4 ml-4"> A. Yes, It will generate the returns upto 10% in short term Loreum Epsum random tetx abcdef </text>}
+              {show?<text  class="text-lg text-slate-700 text-start font-semibold  mt-4 ml-4"> A. Yes, It will generate the returns upto 10% in short term</text>:<text  class="text-lg text-slate-700 text-start font-semibold  mt-4 ml-4"> A. Yes, It will generate the returns upto 10% in short term Loreum Epsum random tetx abcdef </text>}
               <div class="flex flex-row flex-nowrap justify-between min-w-full py-5 ">
                 <text class="text-lg  font-semibold mt-4 ml-4">Q. How much this will generate income easily in just 9 months?</text>
-                {!show1?<svg xmlns="http://www.w3.org/2000/svg"  onClick={()=>{setshow1(true)}} className="h-6 w-6  mt-4  hover:cursor-pointer " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                {!show1?<svg xmlns="http://www.w3.org/2000/svg"  onClick={()=>{setshow1(true)}} class="h-6 w-6 mr-4  mt-4  hover:cursor-pointer " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
                 :
-                <svg xmlns="http://www.w3.org/2000/svg" onClick={()=>{setshow1(false)}} class="h-6 w-6  hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <svg xmlns="http://www.w3.org/2000/svg" onClick={()=>{setshow1(false)}} class="h-6 w-6 mr-4  hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                 </svg>
                 }
               </div>
-              {!show1?<text  class="text-lg text-slate-700 text-start font-semibold  mt-4 ml-4"> A. No, It will generate the returns upto 10% in short term</text>:<text  class="text-lg text-slate-700 text-start font-semibold  mt-4 ml-4"> A. No, It will generate the returns upto 10% in short term Loreum Epsum random tetx abcdef </text>}
+              {show1?<text  class="text-lg text-slate-700 text-start font-semibold  mt-4 ml-4"> A. No, It will generate the returns upto 10% in short term</text>:<text  class="text-lg text-slate-700 text-start font-semibold  mt-4 ml-4"> A. No, It will generate the returns upto 10% in short term Loreum Epsum random tetx abcdef </text>}
             </div>
 
             
